@@ -23,7 +23,7 @@ class Character(Base):
     id = Column(String(250), primary_key=True)
     name = Column(String(250))
     hair_color = Column(String(250))
-    gender = Column(String(250))
+    
     
     def to_dict(self):
         return {}
